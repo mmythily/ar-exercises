@@ -11,6 +11,7 @@ puts "----------"
 
 
 # Exercise 5: Calculations
+# https://api.rubyonrails.org/classes/ActiveRecord/Calculations.html
 # Output the total revenue for the entire company (all stores), using Active Record's .sum calculation method.
 puts "Total sum of annual revenue #{Store.sum(:annual_revenue)}"
 # On the next line, also output the average annual revenue for all stores.
