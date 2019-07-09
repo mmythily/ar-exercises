@@ -42,3 +42,4 @@ ActiveRecord::Schema.define do
 end
 
 puts 'Setup DONE'
+# @womens_stores = Store.where(womens_apparel: true).where("annual_revenue < 1000000")
